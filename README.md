@@ -73,10 +73,11 @@ persists across screens.
 
 ```sh
 npm install
-npx expo start
+npx expo run:android   # or npx expo run:ios
 ```
 
-Scan the QR code with Expo Go, or press `w` for web. The app renders its
+Voice needs this development build. `npx expo start` with Expo Go or web
+(`w`) renders every screen but has no speech recognition. The app renders its
 built-in seed data until a backend answers.
 
 ```sh
